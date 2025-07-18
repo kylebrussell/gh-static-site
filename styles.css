@@ -237,6 +237,29 @@ body {
     color: var(--primary-hover);
 }
 
+.booking-cta {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.booking-cta p {
+    margin-bottom: 1rem;
+}
+
+.booking-btn {
+    margin-bottom: 1rem;
+}
+
+.booking-cta p:last-child {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: var(--text-light);
+}
+
 /* Featured Project */
 .featured-project {
     padding: 6rem 0;
