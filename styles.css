@@ -641,7 +641,7 @@ body {
     background: var(--bg-card);
     padding: 2rem;
     border-radius: 1rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     border: 1px solid var(--border-color);
 }
