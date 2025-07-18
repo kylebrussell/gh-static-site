@@ -250,16 +250,20 @@ body {
     margin-bottom: 1rem;
 }
 
-.booking-btn {
+.booking-cta .booking-btn {
     margin-bottom: 1rem;
     background: var(--primary-color) !important;
     color: white !important;
     border: 1px solid var(--primary-color) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: inline-flex !important;
 }
 
-.booking-btn:hover {
+.booking-cta .booking-btn:hover {
     background: var(--primary-hover) !important;
     border-color: var(--primary-hover) !important;
+    transform: translateY(-2px) !important;
 }
 
 .booking-cta p:last-child {
