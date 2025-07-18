@@ -463,6 +463,10 @@ footer p {
         font-size: 1rem;
     }
     
+    .featured-grid {
+        gap: 3rem;
+    }
+    
     .featured-item {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -474,11 +478,15 @@ footer p {
     }
     
     .featured-text h3 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     
     .featured-tagline {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
+    }
+    
+    .featured-description {
+        font-size: 1rem;
     }
     
     .projects, .skills, .contact {
