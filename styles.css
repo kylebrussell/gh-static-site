@@ -222,6 +222,16 @@ body {
     transform: rotate(0deg) scale(1.05);
 }
 
+.featured-card-link {
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.featured-card-link:hover .featured-card {
+    transform: rotate(0deg) scale(1.05);
+}
+
 .featured-card .card-icon {
     font-size: 3rem;
     color: var(--primary-color);
