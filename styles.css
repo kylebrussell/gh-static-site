@@ -131,6 +131,112 @@ body {
     transform: translateY(-2px);
 }
 
+/* Services Section */
+.services {
+    padding: 6rem 0;
+    background: var(--bg-primary);
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: var(--text-primary);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.service-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.pricing-highlight {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-xl);
+}
+
+.pricing-highlight h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.pricing-highlight p {
+    font-size: 1.125rem;
+    opacity: 0.9;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-cta {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+.contact-cta p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-cta a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-cta a:hover {
+    color: var(--primary-hover);
+}
+
 /* Featured Project */
 .featured-project {
     padding: 6rem 0;
@@ -499,12 +605,24 @@ footer p {
         font-size: 1rem;
     }
     
-    .projects, .skills, .contact {
+    .services, .projects, .skills, .contact {
         padding: 4rem 0;
     }
     
-    .featured-title, .projects h2, .skills h2, .contact h2 {
+    .services h2, .featured-title, .projects h2, .skills h2, .contact h2 {
         font-size: 2rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-highlight {
+        padding: 2rem;
+    }
+    
+    .pricing-highlight h3 {
+        font-size: 1.5rem;
     }
     
     .projects-grid {
