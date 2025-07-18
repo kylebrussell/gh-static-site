@@ -843,6 +843,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Force cache refresh */
+
 /* Animation utilities */
 @keyframes fadeInUp {
     from {
