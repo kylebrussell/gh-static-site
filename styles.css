@@ -972,15 +972,16 @@ html {
     z-index: 2;
 }
 
-.showcase-image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    max-height: 350px;
-    object-fit: cover;
+.showcase-visual .showcase-image {
+    width: 100% !important;
+    max-width: 500px !important;
+    height: auto !important;
+    max-height: 350px !important;
+    object-fit: cover !important;
     border-radius: 0.75rem;
     box-shadow: var(--shadow-lg);
     transition: transform 0.3s ease;
+    display: block;
 }
 
 .showcase-item:hover .showcase-image {
@@ -1079,9 +1080,9 @@ html {
         font-size: 1.75rem;
     }
     
-    .showcase-image {
-        max-width: 100%;
-        max-height: 250px;
+    .showcase-visual .showcase-image {
+        max-width: 100% !important;
+        max-height: 250px !important;
     }
 }
 
