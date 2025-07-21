@@ -974,7 +974,10 @@ html {
 
 .showcase-image {
     width: 100%;
+    max-width: 500px;
     height: auto;
+    max-height: 350px;
+    object-fit: cover;
     border-radius: 0.75rem;
     box-shadow: var(--shadow-lg);
     transition: transform 0.3s ease;
@@ -1074,6 +1077,11 @@ html {
     
     .showcase-content h3 {
         font-size: 1.75rem;
+    }
+    
+    .showcase-image {
+        max-width: 100%;
+        max-height: 250px;
     }
 }
 
