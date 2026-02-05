@@ -3,351 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle Russell - Rapid Prototyping & Demo Development</title>
-    <link rel="stylesheet" href="styles.css?v=2">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Kyle Russell — Product engineer + founder</title>
+    <meta name="description" content="Kyle Russell is a product engineer and founder leading internal AI deployment at Valon.">
+    <link rel="canonical" href="https://kylebrussell.dev/">
+
+    <meta property="og:title" content="Kyle Russell — Product engineer + founder">
+    <meta property="og:description" content="I lead internal AI deployment at Valon, shipping automations and tools across business teams.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kylebrussell.dev/">
+    <meta property="og:image" content="https://kylebrussell.dev/kyle-2019.jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kyle Russell — Product engineer + founder">
+    <meta name="twitter:description" content="I lead internal AI deployment at Valon, shipping automations and tools across business teams.">
+    <meta name="twitter:image" content="https://kylebrussell.dev/kyle-2019.jpeg">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="header">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-profile">
-                    <img src="./kyle-2019.jpeg" alt="Kyle Russell" class="profile-image">
-                </div>
-                <h1>Kyle Russell</h1>
-                <p class="hero-subtitle">Rapid Prototyping & Demo Development</p>
-                <p class="hero-description">I build Proofs-of-Concept and working demos for startups and corporate teams. From idea to prototype at startup speed.</p>
-                <div class="hero-links">
-                    <a href="#services" class="btn btn-primary">
-                        What I Build
-                    </a>
-                    <a href="#showcase" class="btn btn-secondary">View Portfolio</a>
-                    <a href="about.html" class="btn btn-secondary">About Me</a>
+            <div class="hero">
+                <img
+                    class="avatar"
+                    src="kyle-2019.jpeg"
+                    alt="Kyle Russell"
+                    width="96"
+                    height="96"
+                    loading="eager"
+                >
+                <div class="hero-text">
+                    <h1>Kyle Russell</h1>
+                    <p class="subtitle">Product engineer + founder</p>
+                    <p class="lead">
+                        I lead internal AI deployment at Valon, shipping automations and tools across business teams.
+                        Previously: Skydio (developer platforms), Playbyte (founder), Transform.dev (founder).
+                    </p>
+                    <nav class="links" aria-label="Primary">
+                        <a href="mailto:hi@kylebrussell.dev">Email</a>
+                        <a href="resume.html">Resume</a>
+                        <a href="https://github.com/kylebrussell" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/kyle-russell-32a49668/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://x.com/kylebrussell" target="_blank" rel="noopener noreferrer">X</a>
+                    </nav>
+                    <nav class="toc" aria-label="Sections">
+                        <a href="#about">About</a>
+                        <a href="#work">Work</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#writing">Writing</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
 
-    <main>
-        <section id="services" class="services">
-            <div class="container">
-                <h2>What I Build</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>App Prototypes</h3>
-                        <p>iOS and web apps that demonstrate core functionality and user experience. Perfect for investor demos or user testing.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h3>AI-Powered Demos</h3>
-                        <p>Integrate cutting-edge AI capabilities into working prototypes. LLM integration, data generation, and evals.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-gamepad"></i>
-                        </div>
-                        <h3>Interactive Experiences</h3>
-                        <p>Games, simulations, and interactive tools that showcase complex concepts in an engaging, demonstrable format.</p>
-                    </div>
-                </div>
-                <div class="pricing-highlight">
-                    <h3>$5,000 • One Week • Working Demo</h3>
-                    <p>Fixed price, fixed timeline. You get a deployed, working prototype that demonstrates your core concept.</p>
-                </div>
-            </div>
-        </section>
+    <main id="content" class="main">
+        <div class="container">
+            <section id="about" class="section">
+                <h2>About</h2>
+                <p>
+                    I like ambiguous problems, tight feedback loops, and shipping useful things. These days I build internal tools—Slack bots,
+                    GitHub Actions, and small web apps—and the glue between systems (APIs, data pipelines, and integrations).
+                </p>
+            </section>
 
-        <section id="showcase" class="showcase">
-            <div class="container">
-                <h2>SaaS Portfolio Showcase</h2>
-                <p class="section-subtitle">Full-stack applications demonstrating modern web development and product thinking</p>
-                <div class="showcase-grid">
-                    <div class="showcase-item">
-                        <div class="showcase-visual">
-                            <img src="./gigflow-invoices.png" alt="GigFlow Invoice Management" class="showcase-image">
-                        </div>
-                        <div class="showcase-content">
-                            <h3>GigFlow</h3>
-                            <p class="showcase-tagline">Freelance Project Management Platform</p>
-                            <p class="showcase-description">
-                                All-in-one client management platform for freelancers. Features client management, 
-                                project tracking, and professional invoicing with payment tracking.
-                            </p>
-                            <div class="showcase-tech">
-                                <span class="tech-tag">Next.js</span>
-                                <span class="tech-tag">TypeScript</span>
-                                <span class="tech-tag">PostgreSQL</span>
-                                <span class="tech-tag">Stripe</span>
-                            </div>
-                        </div>
-                    </div>
+            <section id="work" class="section">
+                <h2>Work</h2>
+                <p class="section-intro">Selected roles and products I’ve shipped.</p>
 
-                    <div class="showcase-item">
-                        <div class="showcase-visual">
-                            <img src="./subscribe-dashboard.png" alt="SubScribe Dashboard" class="showcase-image">
-                        </div>
-                        <div class="showcase-content">
-                            <h3>SubScribe</h3>
-                            <p class="showcase-tagline">Smart Subscription Management</p>
-                            <p class="showcase-description">
-                                Platform for tracking and managing recurring payments. Features automated 
-                                subscription discovery, payment reminders, and cancellation assistance.
-                            </p>
-                            <div class="showcase-tech">
-                                <span class="tech-tag">Next.js</span>
-                                <span class="tech-tag">Plaid API</span>
-                                <span class="tech-tag">PostgreSQL</span>
-                                <span class="tech-tag">Financial Data</span>
-                            </div>
-                        </div>
-                    </div>
+                <article class="item">
+                    <h3>AI Deployment Lead — Valon</h3>
+                    <p class="meta">Aug 2025–Present</p>
+                    <ul class="list">
+                        <li>Own discovery → delivery: scope, validate, build, deploy, iterate.</li>
+                        <li>Ship automations that eliminate repetitive work across Deployment, Operations, Legal, HR, and Recruiting.</li>
+                        <li>Build internal tools: Slack bots, small web apps, and GitHub Actions.</li>
+                        <li>Create MCP servers and integrations (e.g., Rippling MCP; Ashby skills) and connect tools like Gong, Linear, and Notion.</li>
+                        <li>Write enablement docs and do 1:1 upskilling so teams can self-serve with AI tools effectively.</li>
+                    </ul>
+                </article>
 
-                    <div class="showcase-item">
-                        <div class="showcase-visual">
-                            <img src="./habitforge-dashboard.png" alt="HabitForge Dashboard" class="showcase-image">
-                        </div>
-                        <div class="showcase-content">
-                            <h3>HabitForge</h3>
-                            <p class="showcase-tagline">Social Habit Tracking Platform</p>
-                            <p class="showcase-description">
-                                Community-driven habit tracking with social accountability. Features personal 
-                                habit creation, friend connections, and real-time encouragement.
-                            </p>
-                            <div class="showcase-tech">
-                                <span class="tech-tag">Next.js</span>
-                                <span class="tech-tag">Socket.IO</span>
-                                <span class="tech-tag">MongoDB</span>
-                                <span class="tech-tag">Real-time</span>
-                            </div>
-                        </div>
-                    </div>
+                <article class="item">
+                    <h3>
+                        <a href="https://techcrunch.com/2018/09/06/skydio-announces-autonomous-drone-developer-platform-new-1999-price-point/" target="_blank" rel="noopener noreferrer">
+                            Developer Platforms — Skydio
+                        </a>
+                    </h3>
+                    <p class="meta">2018–2019</p>
+                    <ul class="list">
+                        <li>Built a developer platform for custom autonomous flight skills and navigation paths.</li>
+                        <li>Shipped a browser-based 3D simulator to speed iteration and testing.</li>
+                    </ul>
+                </article>
 
-                    <div class="showcase-item">
-                        <div class="showcase-visual">
-                            <img src="./gigflow-invoices.png" alt="Insightful Analytics" class="showcase-image">
-                        </div>
-                        <div class="showcase-content">
-                            <h3>Insightful</h3>
-                            <p class="showcase-tagline">Privacy-First Web Analytics</p>
-                            <p class="showcase-description">
-                                Cookieless web analytics platform respecting user privacy. Lightweight tracking 
-                                with real-time dashboard and GDPR/CCPA compliance by design.
-                            </p>
-                            <div class="showcase-tech">
-                                <span class="tech-tag">Next.js</span>
-                                <span class="tech-tag">Recharts</span>
-                                <span class="tech-tag">Prisma</span>
-                                <span class="tech-tag">Privacy-First</span>
-                            </div>
-                        </div>
-                    </div>
+                <article class="item">
+                    <h3>
+                        <a href="https://techcrunch.com/2021/09/03/playbytes-new-app-aims-to-become-the-tiktok-for-games/" target="_blank" rel="noopener noreferrer">
+                            Founder — Playbyte
+                        </a>
+                    </h3>
+                    <p class="meta">2019–2022</p>
+                    <ul class="list">
+                        <li>Raised $4M (FirstMark, Ludlow Ventures, and angels).</li>
+                        <li>Scaled to TestFlight’s beta cap and hosted 100k+ games created by tens of thousands of users.</li>
+                    </ul>
+                </article>
 
-                </div>
-            </div>
-        </section>
+                <article class="item">
+                    <h3>
+                        <a href="https://x.com/kylebrussell/status/1677411174713905156" target="_blank" rel="noopener noreferrer">
+                            Founder — Transform.dev
+                        </a>
+                    </h3>
+                    <p class="meta">2022–2023</p>
+                    <ul class="list">
+                        <li>Built natural-language app prototyping: prompt → preview → deploy in minutes.</li>
+                        <li>Focused on fast iteration loops for non-technical builders.</li>
+                    </ul>
+                </article>
+            </section>
 
-        <section id="experience" class="featured-project">
-            <div class="container">
-                <h2 class="featured-title">Shipped Products</h2>
-                <p class="section-subtitle">I've built platforms, raised funding, and shipped products that reached hundreds of thousands of users.</p>
-                <div class="featured-grid">
-                    <div class="featured-item">
-                        <div class="featured-text">
-                            <h3>Skydio Autonomy Platform <span class="project-year">(2018-2019)</span></h3>
-                            <p class="featured-tagline">Developer platform for autonomous drone programming</p>
-                            <p class="featured-description">
-                                Built developer platform enabling custom autonomous flight skills and navigation paths. 
-                                Included browser-based 3D simulator and programmatic control for industry applications 
-                                like inspection, security monitoring, and photogrammetry.
-                            </p>
-                            <div class="featured-tech">
-                                <span class="tech-tag">Autonomous Systems</span>
-                                <span class="tech-tag">Developer Platform</span>
-                                <span class="tech-tag">3D Simulation</span>
-                            </div>
-                        </div>
-                        <div class="featured-visual">
-                            <a href="https://techcrunch.com/2018/09/06/skydio-announces-autonomous-drone-developer-platform-new-1999-price-point/" class="featured-card-link">
-                                <div class="project-card featured-card">
-                                    <div class="card-icon">
-                                        <i class="fas fa-plane"></i>
-                                    </div>
-                                    <h3>Skydio</h3>
-                                    <p>Autonomous flight programming</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item">
-                        <div class="featured-text">
-                            <h3>Playbyte <span class="project-year">(2019-2022)</span></h3>
-                            <p class="featured-tagline">Mobile game creation platform - "TikTok for games"</p>
-                            <p class="featured-description">
-                                Founded a no-code game creation platform that raised $4M in funding from FirstMark, 
-                                Ludlow Ventures, and top angels. 
-                                
-                                Maxed out TestFlight's 
-                                beta user cap before public launch, ultimately hosted more than 100,000 games
-                                made by tens of thousands of users.
-                            </p>
-                            <div class="featured-tech">
-                                <span class="tech-tag">UGC Games</span>
-                                <span class="tech-tag">Consumer Social</span>
-                            </div>
-                        </div>
-                        <div class="featured-visual">
-                            <a href="https://techcrunch.com/2021/09/03/playbytes-new-app-aims-to-become-the-tiktok-for-games/" class="featured-card-link">
-                                <div class="project-card featured-card">
-                                    <div class="card-icon">
-                                        <i class="fas fa-rocket"></i>
-                                    </div>
-                                    <h3>Playbyte</h3>
-                                    <p>Game creation for everyone</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item">
-                        <div class="featured-text">
-                            <h3>Transform.dev <span class="project-year">(2022-2023)</span></h3>
-                            <p class="featured-tagline">A tool that makes it 100x easier to go from idea to live prototype</p>
-                            <p class="featured-description">
-                                Transform.dev let users build app prototypes in 5 minutes by describing them. 
-                                Like Lovable.dev or Replit Agent, it empowered non-technical people to iteratively prompt LLMs 
-                                to create web apps, websites, or games.
-                            </p>
-                            <div class="featured-tech">
-                                <span class="tech-tag">LLM Integration</span>
-                                <span class="tech-tag">Rapid Prototyping</span>
-                                <span class="tech-tag">Code Generation</span>
-                            </div>
-                        </div>
-                        <div class="featured-visual">
-                            <a href="https://x.com/kylebrussell/status/1677411174713905156" class="featured-card-link">
-                                <div class="project-card featured-card">
-                                    <div class="card-icon">
-                                        <i class="fas fa-magic"></i>
-                                    </div>
-                                    <h3>Transform.dev</h3>
-                                    <p>Idea → Live Prototype in 5 minutes</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <p class="section-intro">Open-source and side projects.</p>
+                <ul class="rows">
+                    <li class="row">
+                        <a href="https://github.com/kylebrussell/cap-rlvr" target="_blank" rel="noopener noreferrer">CAP RLVR</a>
+                        <span class="sep">—</span>
+                        <span>Reinforcement Learning from Verifiable Reasoning for legal tasks (Caselaw Access Project).</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://github.com/kylebrussell/ARoniOS" target="_blank" rel="noopener noreferrer">ARoniOS</a>
+                        <span class="sep">—</span>
+                        <span>ARKit starter kit for non-iOS developers.</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://github.com/kylebrussell/StoryPanels" target="_blank" rel="noopener noreferrer">StoryPanels</a>
+                        <span class="sep">—</span>
+                        <span>LLM-powered iOS comic creation app.</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://github.com/kylebrussell/fed-policy-cli" target="_blank" rel="noopener noreferrer">fed-policy-cli</a>
+                        <span class="sep">—</span>
+                        <span>CLI for exploring Federal Reserve policy scenarios.</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://github.com/kylebrussell/nuno-player" target="_blank" rel="noopener noreferrer">nuno-player</a>
+                        <span class="sep">—</span>
+                        <span>iPod-inspired scroll wheel music player in C.</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://kylebrussell.itch.io/" target="_blank" rel="noopener noreferrer">City Park Life</a>
+                        <span class="sep">—</span>
+                        <span>Top-down 2D life sim set in Park Slope, Brooklyn.</span>
+                    </li>
+                </ul>
+            </section>
 
-                    <div class="featured-item">
-                        <div class="featured-text">
-                            <h3>CAP RLVR <span class="project-year">(2025)</span></h3>
-                            <p class="featured-tagline">Legal AI with Reinforcement Learning from Verifiable Reasoning</p>
-                            <p class="featured-description">
-                                RLVR system for legal reasoning using the Caselaw Access Project corpus. 
-                                Features deterministic rewards across 5 legal tasks with continuous improvement 
-                                through reinforcement learning from verifiable reasoning.
-                            </p>
-                            <div class="featured-tech">
-                                <span class="tech-tag">PyTorch</span>
-                                <span class="tech-tag">Qwen-3</span>
-                                <span class="tech-tag">RLVR</span>
-                                <span class="tech-tag">Legal AI</span>
-                            </div>
-                        </div>
-                        <div class="featured-visual">
-                            <a href="https://github.com/kylebrussell/cap-rlvr" class="featured-card-link">
-                                <div class="project-card featured-card">
-                                    <div class="card-icon">
-                                        <i class="fas fa-gavel"></i>
-                                    </div>
-                                    <h3>CAP RLVR</h3>
-                                    <p>Legal reasoning with RLVR</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <section id="writing" class="section">
+                <h2>Writing</h2>
+                <ul class="rows">
+                    <li class="row">
+                        <a href="https://collisions.substack.com/" target="_blank" rel="noopener noreferrer">Collisions</a>
+                        <span class="sep">—</span>
+                        <span>Essays on technology and human experience.</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://www.wired.com/2015/08/vr-creative-process/" target="_blank" rel="noopener noreferrer">Wired</a>
+                        <span class="sep">—</span>
+                        <span>“Here’s What We Need to Do to Get VR to Take Off.”</span>
+                    </li>
+                    <li class="row">
+                        <a href="https://techcrunch.com/author/kyle-russell/" target="_blank" rel="noopener noreferrer">TechCrunch</a>
+                        <span class="sep">—</span>
+                        <span>Author page.</span>
+                    </li>
+                </ul>
+            </section>
 
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2>Technologies</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>AI & Tools</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Rapid Prototyping</span>
-                            <span class="skill-tag">LLM Integration</span>
-                            <span class="skill-tag">Fine-Tuning</span>
-                            <span class="skill-tag">Data generation</span>
-                            <span class="skill-tag">Evals</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Languages</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Swift</span>
-                            <span class="skill-tag">TypeScript</span>
-                            <span class="skill-tag">C/C++</span>
-                            <span class="skill-tag">Python</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Platforms</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">iOS</span>
-                            <span class="skill-tag">Web</span>
-                            <span class="skill-tag">CLI Tools</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Ready to Build Your Demo?</h2>
-                <p>Have an idea that needs a working prototype? Let's turn it into reality in one week.</p>
-                <div class="contact-cta">
-                    <p><strong>Email me:</strong> <a href="mailto:hi@kylebrussell.dev">hi@kylebrussell.dev</a></p>
-                    <p>Include your concept, timeline, and what you want to demonstrate.</p>
-                </div>
-                <div class="booking-cta">
-                    <p><strong>Or schedule a call:</strong></p>
-                    <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ37i5G_AE8nNMeii52Aupu6XzjVQv7yuiBuBCwr4k3FD4Z7AxFMJlbBE06J2bVmI9TpGoSYcE0C" class="btn btn-primary booking-btn" target="_blank">
-                        <i class="fas fa-calendar-alt"></i> Book a Discovery Call
-                    </a>
-                </div>
-                <div class="contact-links">
-                    <a href="about.html" class="contact-link">
-                        <i class="fas fa-user"></i> About Me
-                    </a>
-                    <a href="https://github.com/kylebrussell" class="contact-link">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="https://x.com/kylebrussell" class="contact-link">
-                        <i class="fab fa-twitter"></i> Twitter
-                    </a>
-                    <a href="https://www.linkedin.com/in/kyle-russell-32a49668/" class="contact-link">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                </div>
-            </div>
-        </section>
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Email is best: <a href="mailto:hi@kylebrussell.dev">hi@kylebrussell.dev</a></p>
+            </section>
+        </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Kyle Russell. Turning ideas into working demos at startup speed.</p>
+            <p>© Kyle Russell</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
